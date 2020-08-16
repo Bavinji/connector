@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+
+#loginbox{
+    
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 100px;
+    display: flex;
+	align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.connect{
+    border-color: cornsilk;
+}
+
+
+#username{
+    background-color : rgb(240, 158, 59);
+    height: auto;
+    width: auto;
+    font-size: 22px;
+    text-align: center;
+    padding: 4px 6.6px;
+}
+
+
+#name{
+    text-align: center;
+    background-color: rgb(245, 230, 98);
+    padding:1.5px;
+}
+
+#btn{
+    text-align: center;
+    padding: 0px 65px;
+    background-color: rgb(245, 230, 98);
+}
+
+#btn1 :hover{
+    cursor:pointer;
+    font-weight:bold;
+    background-color: darksalmon;
+}
+
+#heading{
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    margin : 20px 70px;
+    background-color: rgb(80, 80, 79);
+    font-family : 'acme',sans-serif;
+}
+
+#leave{
+    text-align: center;
+    font-size: 30px;
+}
+
+#main-chat{
+    max-width: 500px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #837d48;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: 'acme',sans-serif;
+    font-size: 16px;
+}
+
+button{
+    background: #ee4e4e;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+
+#caption{
+    text-align:center;
+    font-size:30px;
+    margin:8px 8px;
+    font-family:  'caveat' ,sans-serif;
+}
+
+#author{
+    text-align:center;
+    font-size:18px;
+    font-family:'caveat',sans-serif;
+    margin : 4px 4px;
+}
+
+
+
